@@ -1,0 +1,134 @@
+/* styles.css */
+
+/* Style pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("https://image.freepik.com/vecteurs-libre/fond-grunge-sombre_1048-11745.jpg");
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* Style pour la barre de navigation */
+nav ul {
+  background-color: #800020;
+  list-style: none;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li {
+  background-color: #800020;
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  background-color: #800020;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Style pour le pied de page */
+footer {
+  background-color: #800020;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Ajoutez ces styles à votre fichier CSS ou balise <style> */
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 45%;
+  /* Ajustez la largeur comme vous le souhaitez */
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.movie-thumbnail {
+  width: 120px;
+  /* Ajustez la taille de la miniature */
+  height: auto;
+  margin-right: 10px;
+}
+
+.movie-details {
+  flex: 1;
+}
+
+.movie-details h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.movie-details p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+
+/* Style pour la liste de films 
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ Style pour la carte de film 
+.movie-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+*/
+.movie-card h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.movie-card p {
+  font-size: 1rem;
+  color: #777;
+}
